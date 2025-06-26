@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guillaume Lozachmeur - Ingénieur Logiciel Freelance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700;900&family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="particles-canvas"></canvas>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <span class="logo-letter">G</span>
+                    <span class="logo-letter">L</span>
+                </div>
+                <span class="brand-name">Guillaume Lozachmeur</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span>Guillaume Lozachmeur</span>
+                </h1>
+                <h2 class="hero-subtitle">Ingénieur Logiciel Freelance | Golang, Cloud Native</h2>
+                <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Lille, Hauts-de-France, France</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Me Contacter</a>
+                    <a href="#experience" class="btn btn-secondary">Voir Mon Travail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Avec plus de 7 ans d'expérience en développement backend, j'ai débuté ma carrière en PHP avant d'orienter mon expertise vers le Go et les environnements cloud-native.</p>
+                    <p>Spécialisé dans la conception d'API et d'architectures microservices, j'ai également une solide expérience en infrastructures cloud (AWS, GCP, Kubernetes, Terraform) et en pipelines CI/CD.</p>
+                    <p>Avec une forte volonté de continuer d'évoluer avec des outils modernes, je recherche des projets mêlant défis techniques et solutions innovantes.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">7+</div>
+                        <div class="stat-label">Années d'Expérience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies Maîtrisées</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-code"></i> Langages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Golang</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Symfony</span>
+                        <span class="skill-tag">API Platform</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-project-diagram"></i> Architecture</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">Event-Driven</span>
+                        <span class="skill-tag">Hexagonal</span>
+                        <span class="skill-tag">API REST</span>
+                        <span class="skill-tag">Serverless</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Expérience Professionnelle</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Mars 2025 - Présent</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Ingénieur Logiciel - ADEO</h3>
+                        <p class="timeline-location">Lille, Hauts-de-France, France</p>
+                        <p>Au sein de la Delivery Experience, conception et développement d'outils et d'API en Golang afin d'industrialiser les pratiques CI/CD et d'améliorer l'expérience développeur dans le cadre d'une mise en place de Platform Engineering</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2024 - Mars 2025</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Ingénieur Logiciel - SNCF Connect & Tech</h3>
+                        <p class="timeline-location">Lille, Hauts-de-France, France</p>
+                        <ul>
+                            <li>Développement d'un outil de gestion des évènements et d'observabilité via Symfony et API Platform</li>
+                            <li>Migration de fonctionnalités PHP vers du serverless (Lambda AWS en Python et Go)</li>
+                            <li>Utilisation de Terraform pour l'automatisation et la gestion des ressources AWS</li>
+                            <li>Monitoring et création de dashboards via Datadog</li>
+                            <li>Orchestration et déploiement de conteneurs via Kubernetes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Fév 2022 - Juil 2024</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Ingénieur Logiciel - Bedrock Streaming</h3>
+                        <p class="timeline-location">Lyon, Auvergne-Rhône-Alpes, France</p>
+                        <ul>
+                            <li>Conception de l'API à forte charge "Back For Front" de la plateforme 6Play</li>
+                            <li>Utilisation de PHP asynchrone via Tornado pour optimiser les requêtes concurrentes</li>
+                            <li>Refonte de micro-services de PHP vers Go</li>
+                            <li>Conception d'une lambda AWS en Go pour automatiser les vérifications OpenApi</li>
+                            <li>Mise en place de stratégies de résilience et mécanismes de fallback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2021 - Fév 2022</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Développeur Backend - STS</h3>
+                        <p class="timeline-location">Lyon, Auvergne-Rhône-Alpes, France</p>
+                        <ul>
+                            <li>Refonte de la plateforme de gestion RH vers Symfony/Vue.js</li>
+                            <li>Conception d'un système automatisé pour la gestion des DSN</li>
+                            <li>Montée en version de Symfony (5 à 6) et PHP (7 à 8)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Août 2019 - Fév 2021</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Développeur Full Stack - Orange Business Services</h3>
+                        <p class="timeline-location">Lyon, Auvergne-Rhône-Alpes, France</p>
+                        <ul>
+                            <li>Développement de l'API REST basée sur API Platform</li>
+                            <li>Création d'un système de formulaire récursif avec éditeur WYSIWYG</li>
+                            <li>Optimisation de requêtes SQL et des temps de réponse de l'API</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Formation</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-year">2017 - 2018</div>
+                    <h3 class="education-title">Master SSI</h3>
+                    <p class="education-school">Université de Technologie de Troyes</p>
+                    <p class="education-field">Informatique</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2014 - 2017</div>
+                    <h3 class="education-title">Diplôme d'Ingénieur</h3>
+                    <p class="education-school">Université de Technologie de Troyes</p>
+                    <p class="education-field">Informatique</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2012 - 2014</div>
+                    <h3 class="education-title">DUT Informatique</h3>
+                    <p class="education-school">UPJV - IUTAMIENS</p>
+                    <p class="education-field">Informatique</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0631442604">06 31 44 26 04</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:guillaume.lozachmeur1@gmail.com">guillaume.lozachmeur1@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/guillaume-lozachmeur-623519b5" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <p>Intéressé par une collaboration ? N'hésitez pas à me contacter pour discuter de votre projet.</p>
+                    <a href="mailto:guillaume.lozachmeur1@gmail.com" class="btn btn-primary">Envoyer un Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Guillaume Lozachmeur. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
