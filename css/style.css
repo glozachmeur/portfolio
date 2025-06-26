@@ -250,13 +250,13 @@ body {
 
 .hero-title {
     font-size: clamp(3.5rem, 9vw, 6rem);
-    font-weight: 300;
+    font-weight: 800;
     margin-bottom: 1.5rem;
     line-height: 1.1;
     position: relative;
     display: inline-block;
-    letter-spacing: 0.02em;
-    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.03em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-title span {
